@@ -2,7 +2,7 @@ import eventEmmiter from 'events'
 import dividedBy7 from '../../common/dividedBy7.js'
 import numberHas7 from '../../common/has7.js'
 
-class Player extends evenEmmiter{
+class Player extends eventEmmiter{
     constructor(name="player",age=18){
         super()
         this.name=name
