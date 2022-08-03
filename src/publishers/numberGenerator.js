@@ -11,17 +11,15 @@ class NumberGenerator extends eventEmmiter{
           yield i;
       }
     }
-  }
-  generatePrimeNumbers() {
+  
+   generateNumbers(){
         let currentNumber=this.generator.next().value
         //checks if the generator has finished yeilding
         if(!currentNumber){
             return console.log("Game over")
         }
 
-        this.emit("Number",currentNumber)
-   
+        this.emit("Number",currentNumber)}
 }
-
 export default NumberGenerator
 
