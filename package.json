@@ -1,0 +1,21 @@
+{
+  "name": "7boom",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KoganLior/7BoomGame.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KoganLior/7BoomGame/issues"
+  },
+  "homepage": "https://github.com/KoganLior/7BoomGame#readme"
+}
